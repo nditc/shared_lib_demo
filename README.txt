@@ -18,7 +18,7 @@ Then let's build the dll
 The dll is complete! Now let's compile & run the main program!
 
 ```
-> g++ main.cpp -o main.exe
+> g++ main.cpp -ldl -o main.exe
 > main.exe
 ```
 
